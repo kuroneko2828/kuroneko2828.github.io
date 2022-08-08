@@ -1,6 +1,16 @@
-#title{
-    width:100%;
-    
-    background-color: aliceblue;
+.content:nth-of-type(2n-1){
+    width: 100%;
     text-align: center;
+    background-color: whitesmoke;
+}
+
+.content:nth-of-type(2n){
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#title{
+    height: 100vh;
+    background: linear-gradient(rgb(195, 227, 255), white);
 }
