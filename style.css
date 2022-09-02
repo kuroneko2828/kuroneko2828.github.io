@@ -1,11 +1,11 @@
 .content:nth-of-type(2n-1){
-    width: 100%;
+    width: 100vh;
     text-align: center;
     background-color: whitesmoke;
 }
 
 .content:nth-of-type(2n){
-    width: 100%;
+    width: 100vh;
     text-align: center;
     background-color: aliceblue;
 }
