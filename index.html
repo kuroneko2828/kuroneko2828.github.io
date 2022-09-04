@@ -108,7 +108,8 @@
             <h2>Contact</h2>
             何かあれば、<a href="https://forms.gle/2iXtKD13eF9Q54wGA">こちら</a>から気軽にご連絡ください！
         </div>
-        <div style="height: 50px"></div>
+        <p id="update" style="text-align: right;"></p>
+        <div style="height: 20px"></div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js"></script>
@@ -120,6 +121,13 @@
             autoplay: false,
             dots: true,
         });
+        let text = document.getElementById('update');
+        renew = new Date(document.lastModified);
+        y=renew.getYear();
+        m=renew.getMonth() + 1;
+        d=renew.getDate();
+        if(y<1900) {y=y+1900;}
+        text.textContent = "最終更新日："+y+"年"+m+"月"+d+"日";
     </script>
 </body>
 </html>
