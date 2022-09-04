@@ -43,12 +43,14 @@ table{
 .header{
     width: 100vw;
     height: 100px;
-    padding: 20px;
+    padding:  0px 20px;
     background-color: aliceblue;
     position: fixed;
     top: 0px;
     border-bottom: solid 3px rgb(83, 83, 155);
     z-index: 200;
+    display: flex;
+    align-items: flex-end;
 }
 
 .works-img{
