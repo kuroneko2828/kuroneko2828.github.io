@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works Collection</title>
+    <meta name="description" content="石川のポートフォリオサイトです。">
+    <link rel="stylesheet" href="../style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <a href="../index.html" style="text-decoration: none; color: black;"><span style="font-size: 50px;">Works Collections　</span><span style="font-size: 20px;">produced by Ishikawa</span></a>
+    </div>
+    <div style="height: 150px;"></div>
+    <div style="text-align:center;"><img src="../images/HABIFY.png" alt="HABIFY" class="head-img"></div>
+    <div class="works">
+        <h1 style="text-align: center;">【HABIFY】</h1>
+        <table class="table table-bordered border-info">
+            <tr>
+                <td width="100px">種別</td>
+                <td>チーム開発</td>
+            </tr>
+            <tr>
+                <td>概要</td>
+                <td>
+                    ユーザー1人1人に合わせた/バースデーソングを自動作成するサービス。<br>
+                    ユーザーのツイートを解析してパラメータを決定した後、パラメータに応じて、バースデーソングの編曲や効果音挿入を行う。
+                    さらに、ユーザーのツイッターアイコンとその人を表す画像を使って動画として生成する。
+                </td>
+            </tr>
+            <!-- チーム開発であれば、下記記載 -->
+            
+            <tr>
+                <td>担当箇所</td>
+                <td>
+                    ユーザーのツイートを解析し、編曲のためのパラメータを決定する所を担当した。<br>
+                    パラメータとしては、ツイートに表出している感情、および頻繁に用いられているキーワードを使用している。
+                    感情分析には感情分析APIを、キーワード抽出には、パターンマッチを主に使用している。
+                </td>
+            </tr>
+        
+            <tr>
+                <td>ポイント</td>
+                <td>
+                    感情分析APIは、ポジネガ判定だけのものではなく、他クラス分類ができるものを探して使用した。
+                    これにより、パラメータ量を格段に上げることが可能となり、異なるユーザーであればほぼ必ず異なる結果が出力されるようになった。<br>
+                    また、キーワード抽出の際に人名を誤ってキーワードだと判定されることを防ぐため、固有表現抽出を挟んで人名を除外した。
+                </td>
+            </tr>
+            <tr>
+                <td>制作理由</td>
+                <td>誕生日の祝い方が固定化されてしまっている。<br>&rightarrow;新しい誕生日の祝い方を提案したい。</td>
+            </tr>
+            <tr>
+                <td>開発期間</td>
+                <td>2021年10月</td>
+            </tr>
+            <tr>
+                <td>使用技術</td>
+                <td>Python、自然言語処理、動画像処理、音楽情報処理、Docker</td>
+            </tr>
+            <tr>
+                <td>リンク</td>
+                <td>
+                    <a href="http://habify.herokuapp.com">サービスページ</a> （※現在サービス停止中。ページ自体は開けますが、時間がかかります。）<br>
+                    <a href="https://github.com/jphacks/D_2105">GitHub</a>
+                </td>
+            </tr>
+        </table>
+        <a href="../index.html#works"><button type="button" class="btn btn-outline-primary">戻る</button></a>
+    </div>
+</body>
