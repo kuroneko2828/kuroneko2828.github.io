@@ -1,7 +1,7 @@
 .frame{
     width: 100vw;
     height: 100vh;
-    padding:10%;
+    padding: 5% 10%;
     
 }
 
@@ -47,4 +47,32 @@ table{
     background-color: aliceblue;
     position: fixed;
     top: 0px;
+}
+
+.works-img{
+    height: 90%;
+    width: 95%;
+    object-fit: contain;
+    margin : 0 auto;
+}
+
+.works-item{
+    text-align: center;
+    height: 70vh;
+    margin: 20px 10px;
+    padding-top: 10px;
+    background-color: aliceblue;
+
+}
+
+.slider .slick-prev::before,
+.slider .slick-next::before {
+    font-size: 32px;
+    color: black;
+}
+
+.slider
+
+.slider{
+    height: 70vh;
 }
