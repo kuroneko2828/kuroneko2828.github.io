@@ -6,6 +6,6 @@
 https://kuroneko2828.github.io
 
 # 使用フォント
-装甲明朝（プロップデザインフォント様）
+装甲明朝（フロップデザインフォント様）
 
 URL:https://booth.pm/ja/items/1028555
