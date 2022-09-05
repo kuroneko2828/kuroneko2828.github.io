@@ -68,7 +68,6 @@ table{
 .works-item{
     text-align: center;
     height: 50vh;
-    width: 100%;
     padding-top: 10px;
     background-color: aliceblue;
 
@@ -80,9 +79,15 @@ table{
     color: black;
 }
 
+.slider .slick-prev{
+    left: -36px;
+}
+
 .slider{
     height: 50vh;
     text-align: center;
+    padding-left: 0px;
+    background-color: black;
 }
 
 .arrow_u {
@@ -99,7 +104,15 @@ table{
     transform: translateY(-25%) rotate(135deg);
   }
 
-  @font-face {
+@font-face {
     font-family: 'soukou'; 
     src: url('fonts/SoukouMincho.ttf') format('truetype');
-  }
+}
+
+@media screen and (min-width: 768px){
+    .br-sp {display: none; }
+}
+
+@media screen and (max-width: 768px){
+    #title p{font-size: 12px;}
+}
